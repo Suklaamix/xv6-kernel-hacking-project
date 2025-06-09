@@ -18,7 +18,7 @@
 
 int readcount;
 int
-sys_getreadcount(void) {
+sys_getreadcount(int reset) {
   int reset;
 
   // fetch the syscall argument (reset)
