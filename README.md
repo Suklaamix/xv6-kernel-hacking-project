@@ -139,6 +139,14 @@ int main(int argc, char *argv[])
 ```
 This code was made by chatgpt and it will read the initial read count and then the read count after reading README and then read count after reseting it.
 
+The output looks something like this
+```
+Initial read count 16
+Read count after reads 26
+Read count reset
+Read count after reset 0
+TEST PASSED
+```  
 **Makefile** changes
 ```
 UPROGS=\
