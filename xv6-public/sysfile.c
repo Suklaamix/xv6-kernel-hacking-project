@@ -19,9 +19,6 @@
 int readcount;
 int
 sys_getreadcount(int reset) {
-  int reset;
-
-  // fetch the syscall argument (reset)
   if (argint(0, &reset) < 0)
     return -1;
 
