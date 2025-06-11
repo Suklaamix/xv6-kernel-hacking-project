@@ -51,9 +51,7 @@ adding an extra systemcall for the getreadcount after the default 21 from xv6
 
 int readcount; / Added everything after this line
 int
-sys_getreadcount(void) {
-  int reset;
-
+sys_getreadcount(int reset) {
   if (argint(0, &reset) < 0)
     return -1;
 
