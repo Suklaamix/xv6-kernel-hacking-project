@@ -1,6 +1,6 @@
 # xv6-kernel-hacking-project
-Much of the implementation of the syscall is based on this blog post by Mani Tofigh https://manitofigh.medium.com/add-the-getreadcount-system-call-to-xv6-820db597f4c5
-I added the ability to reset the readcount by using arguments when invoking the call
+Much of the implementation of the syscall is based on this blog post by Mani Tofigh https://manitofigh.medium.com/add-the-getreadcount-system-call-to-xv6-820db597f4c5  
+I added the ability to reset the readcount by using arguments when invoking the call  
 Implemented a global variable called readcount which is incremented every time the syscall read is called and a syscall getreadcount that returns the value of readcount.
 
 These are all of the changes made to the file
